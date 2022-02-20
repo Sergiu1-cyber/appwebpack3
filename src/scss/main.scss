@@ -1,0 +1,18 @@
+@import "mixins";
+@import "fonts";
+@import "vendor";
+@import "vars";
+@import "settings";
+
+body {
+  background-color: #1eccf7;
+	color: red;
+}
+
+#bg {
+  background-image: url("../img/2.jpg");
+  background-size: cover;
+  border: 5px solid red;
+  width: 200px;
+  height: 200px;
+}
